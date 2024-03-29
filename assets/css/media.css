@@ -208,6 +208,8 @@
     .contact .btn {font-size: 13px;padding: 10px;}
 
     .history .sub_conts_inn .right .box .txt {margin: 0}
+    .history .sub_conts_inn .right .box {top: 14px;}
+    .history .sub_wrap {padding: 30px 0;}
 }
 @media screen and (max-width: 483px) {
     .main_01 .img > div .img02 {top: 0;left: 114px;}
