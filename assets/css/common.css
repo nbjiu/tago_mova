@@ -141,7 +141,8 @@ footer .footer_inn .f_menu a{display: flex;gap: 48px;font-family: 'NanumSquareNe
 footer .footer_inn .social {display: flex;gap: 30px;margin: 29px 0 20px;}
 footer .footer_inn img {object-fit: contain;}
 footer .footer_inn article{line-height: 30px;font-size: 18px;}
-footer .footer_inn article > div{display: flex; align-items: center;white-space: nowrap;}
+footer .footer_inn article > div{display: flex; align-items: center;}
+footer .footer_inn article > div:first-child {white-space: nowrap;}
 footer .footer_inn article > div p{font-weight: 700; }
 footer .footer_inn article > div > span{content: '';background: var(--bg-dark);width: 2px;height: 2px;display: block;text-indent: -999px;margin: 0 7px;}
 footer .footer_inn article > div > p > span {font-weight: 400;}
