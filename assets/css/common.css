@@ -49,11 +49,11 @@ header .snb li {line-height: 26px;line-height: 30px;white-space: nowrap;}
 .hamburger.active span:nth-child(3) {-webkit-transform: translateY(-7px) rotate(-45deg);transform: translateY(-7px) rotate(-45deg);}
 
 .mo_menu {position: fixed; background: var(--bg-dark);height: 100%;width: 100%;display: none;transition: top 0.3s ease;top: -100%;}
-.mo_menu .depth1 > a span { display: block;float: left;padding: 10px 30px; width: 95%;color: #fefefe;box-sizing: border-box;}
+.mo_menu .depth1 > a span { display: block;float: left;padding: 10px 30px; width: 90%;color: #fefefe;box-sizing: border-box;}
 .mo_menu .mo_list {position: relative;}
 .mo_menu .mo_list img {width: 16px;height: 9px;cursor: pointer;}
 .mo_menu .mo_list .mo_snb {display: none;}
-.mo_menu .mo_snb  a {color: #fefefe;padding: 5px 50px;display: block;}
+.mo_menu .mo_snb  a {color: #fefefe;padding: 5px 50px;display: block;text-transform: uppercase;}
 .mo_menu .mo_list.open img {transform: rotate(180deg);}
 .mo_menu .depth1 > a {display: flex;align-items: center;}
 .mo_menu.active {display: block;top: 70px;}
