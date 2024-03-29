@@ -55,7 +55,7 @@ header .snb li {line-height: 26px;line-height: 30px;white-space: nowrap;}
 .mo_menu .mo_list .mo_snb {display: none;}
 .mo_menu .mo_snb  a {color: #fefefe;padding: 5px 50px;display: block;text-transform: uppercase;}
 .mo_menu .mo_list.open img {transform: rotate(180deg);}
-.mo_menu .depth1 > a {display: flex;align-items: center;}
+.mo_menu .depth1 > a {display: flex;align-items: center;text-transform: uppercase;}
 .mo_menu.active {display: block;top: 70px;}
 /* mobile menu end*/
 
@@ -132,7 +132,7 @@ width: 150px;height: 50px;display: flex;align-items: center;justify-content: cen
 
 /* footer start */
 footer {background: #f5f5f5;}
-footer .footer_inn{display: flex;justify-content: space-between;align-items: center;padding: 25px 0;gap: 10px;}
+footer .footer_inn{display: flex;justify-content: space-between;align-items: center;padding: 25px 0 80px;gap: 10px;}
 footer .footer_inn .txt li a img {width: 28px;}
 footer .footer_inn .txt li a:hover {font-weight: 900;}
 footer .footer_inn .img {width: 745px;position: relative;top: -26px;}
