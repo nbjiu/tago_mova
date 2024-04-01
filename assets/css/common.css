@@ -66,16 +66,16 @@ table {font-family: 'Noto Sans CJK KR'; width: 100%;text-align: center;}
 table thead {height: 47px;}
 table.table  th {color: #fefefe;font-size: 20px;font-weight: 500;}
 table.table td {color: #e0e0e0;font-size: 18px;font-weight: 200;height: 48px;border-top: 1px solid #747474;cursor: pointer;}
-table.table td.title {text-align: left;position: relative;padding-left: 22px;}
+table.table td.title {text-align: left;position: relative;padding-left: 22px;line-height: 20px;}
 table.table td.title::before {content: "";background: url(/assets/imgs/icons/ico_lock.png);width: 12px;height: 13px;position: absolute;left: 0;top: 50%;transform: translate(-50%, -50%);}
 table.table td.answer {color: #db1583;}
 /* table end */
 
 /* inputs start */
-input, input::placeholder { font-size:14px;}
+input, input::placeholder, textarea, textarea::placeholder { font-size:14px;}
 .table_info textarea{height: 137px;}
-input {padding: 8px 85px;font-size: 20px;font-weight: 700;color: var(--color-light);border-bottom: 1px solid var(--color-light);}
-textarea {padding: 8px 85px;font-size: 20px;font-weight: 700;color: var(--color-light);overflow-y: auto;border-bottom: 1px solid var(--color-light);}
+input {padding: 8px 8px 8px 85px;font-size: 20px;font-weight: 700;color: var(--color-light);border-bottom: 1px solid var(--color-light);}
+textarea {padding: 8px 8px 8px 85px;font-size: 20px;font-weight: 700;color: var(--color-light);overflow-y: auto;border-bottom: 1px solid var(--color-light);}
 .input_box {position: relative;width: 100%;display: flex;}
 .input_box span {position: absolute;left: 1px;top: 10px;color: #e0e0e0;font-size: 20px;}
 .table_info {display: flex;gap: 30px;}
@@ -124,10 +124,10 @@ width: 150px;height: 50px;display: flex;align-items: center;justify-content: cen
 .paging_conts .paging_number{font-size: 18px;color: var(--color-light);font-weight: 500;width: 41px;height: 41px;display: flex;justify-content: center;align-items: center;border: 1px solid #c2c0c0;}
 .paging_conts .paging_number.active {background: #c2c0c0;}
 .paging_conts .paging {width: 24px;height: 21px;}
-.paging_conts .paging_start {background: url(/assets/imgs/icons/paging_start.png)no-repeat;}
-.paging_conts .paging_end {background: url(/assets/imgs/icons/paging_end.png)no-repeat;}
-.paging_conts .paging_prev {background: url(/assets/imgs/icons/paging_prev.png)no-repeat;}
-.paging_conts .paging_next {background: url(/assets/imgs/icons/paging_next.png)no-repeat;}
+.paging_conts .paging_start {background: url(/assets/imgs/icons/paging_start.png)no-repeat;    object-fit: cover;}
+.paging_conts .paging_end {background: url(/assets/imgs/icons/paging_end.png)no-repeat;    object-fit: cover;}
+.paging_conts .paging_prev {background: url(/assets/imgs/icons/paging_prev.png)no-repeat;    object-fit: cover;}
+.paging_conts .paging_next {background: url(/assets/imgs/icons/paging_next.png)no-repeat;    object-fit: cover;}
 /* pagination end */
 
 /* footer start */

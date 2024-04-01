@@ -184,8 +184,13 @@
    
     .box_slide {width: 100%;}
     .swiper-button-prev, .swiper-button-next {display: none;}
-    
-
+    .input_box span {font-size: 16px;}
+    input, textarea {padding: 8px 8px 8px 75px;font-size: 16px;}
+    .table_info {flex-direction: column;gap: 5px;}
+    .checkbox_type_box .txt {font-size: 16px;}
+    label.file_upload_label {font-size: 14px;width: 120px;}
+    input.file_name_qa {margin-right: 130px;}
+    .support.qa_detail .qa_answer {margin-top: 30px;}
 }
 @media screen and (max-width: 575.98px) {
     .mo {display: none;}
@@ -210,6 +215,26 @@
     .history .sub_conts_inn .right .box .txt {margin: 0}
     .history .sub_conts_inn .right .box {top: 14px;}
     .history .sub_wrap {padding: 30px 0;}
+
+    .table thead {display: none;}
+    .table, .table tbody, .table tr, .table td {display: block;width: 100%;}
+    .table tr {margin-bottom: 20px;border-bottom: 2px solid #747474;position: relative;}
+    .table tr:not(:nth-child(1)) {border-top: 3px solid #747474;}
+    table.table td {display: flex;justify-content: flex-end;align-items: center;border-bottom: 1px solid #747474;border-top: none !important;font-size: 14px !important;height: 40px !important;height: 100% !important;padding: 4px 0;}
+    table.table td.title {padding: 0;padding-left: 50px;display: -webkit-box;overflow: hidden;padding: 4px 0 4px 50px;
+        text-overflow: ellipsis; -webkit-line-clamp: 2;-webkit-box-orient: vertical;text-align: end;}
+    table.table td.title::before {right: 0;left: auto;width: 0;transform: translate(-50%, -80%);}
+    .table td:before {content: attr(data-label) !important;position: absolute !important;left: 0 !important;background: none !important;white-space: nowrap;}
+    .table .no_data td {justify-content: center;border: none;}
+    .table .no_data {border: none;}
+    table.table td.answer::before {color: #e0e0e0;}
+    #popup_container {min-width: 80%;padding: 30px;}
+    #popup_container .popup_message {font-size: 16px;}
+    #popup_container .popup_btn a {font-size: 16px;width: 120px;height: 40px;}
+    #popup_container .popup_panel {margin: 19px 0 20px;}
+    .support .button_wrap .btn {font-size: 16px;padding: 14px 50px;}
+    .paging_conts .paging_number {font-size: 14px;width: 35px;height: 35px;}
+
 }
 @media screen and (max-width: 483px) {
     .main_01 .img > div .img02 {top: 0;left: 114px;}
