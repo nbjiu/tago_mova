@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.container {width: 90%; margin: 0 auto;}
+img {max-width: 100%;height: auto;}
+body {background: url(imgs/bg.png) no-repeat 0 0;background-size: 100% 100%;}
+header {display: flex;align-items: center;justify-content: space-between;}
+header .h_logo img {width: 36px; height: 35px;}
+header .h_hamburger img {width: 32px; height: 28px;}
+header > img {width: 170px;height: auto;}
+
+.content {}
+.start .start_logo {width: 60%;max-width: 640px;margin: 0 auto;margin-top: 120px;}
+.sns_start {width: 70%;max-width: 640px;margin: 0 auto;position: relative;}
+.sns_start.kakao{margin-top: 100px;margin-bottom: 20px;}
+.sns_start span {position: absolute;left: 50%;top: 0;white-space: nowrap;transform: translate(-50%, 13px);color: #212529;font-weight: 700;}
+.start .support {display: flex;justify-content: center;align-items: center;margin-top: 80px;}
+.start .support a{color: #a7a9a7;font-weight: 700;}
+.start .support span {text-indent: -99999999px;width: 1px;height: 16px;background-color: #a7a9a7;margin: 0 50px;}
+footer {padding: 50px 0; display: flex;gap: 10px; align-items: center;width: 85%;max-width: 640px;margin: 0 auto;}
+footer .f_logo {min-width: 10%;}
+footer .f_info {font-size: 0.6rem;white-space: nowrap;}
+footer .f_info > div{display: flex;}
+footer .f_info > div span{font-weight: 500; text-indent: -99999999px;width: 1px;height: 8px;background-color: #a7a9a7;margin: 0 3px;margin-top: 1.3px;}
