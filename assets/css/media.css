@@ -191,6 +191,8 @@
     label.file_upload_label {font-size: 14px;width: 120px;}
     input.file_name_qa {margin-right: 130px;}
     .support.qa_detail .qa_answer {margin-top: 30px;}
+
+    #top_btn {right: 10px;width: 35px;height: 35px;bottom: 20px;}
 }
 @media screen and (max-width: 575.98px) {
     .mo {display: none;}

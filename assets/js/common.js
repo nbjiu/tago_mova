@@ -59,4 +59,40 @@ $(document).ready(function () {
         $(".panel-question").removeClass("active");
         $(this).toggleClass("active");
     });
+
+    // top scroll button
+    $("#top_btn").hide();
+
+    $(window).scroll(function () {
+        var scrollTop = $(this).scrollTop();
+        var footerOffset = $("footer").offset().top;
+        var footerHeight = $("footer").outerHeight();
+        var windowHeight = $(window).height();
+        var btnHeight = $("#top_btn").outerHeight();
+
+        // 스크롤이 페이지 상단에서 푸터의 상단으로 이동하면
+        if (scrollTop + windowHeight > footerOffset) {
+            $("#top_btn").css({
+                position: "absolute",
+                bottom: windowHeight - footerOffset + 50 + "px", // 푸터 위에 위치
+            });
+        } else {
+            $("#top_btn").css({
+                position: "fixed",
+                bottom: "50px", // 일반적인 위치
+            });
+        }
+
+        // 스크롤이 일정 위치 이상이면 top_btn 보이게
+        if (scrollTop > 200) {
+            $("#top_btn").fadeIn();
+        } else {
+            $("#top_btn").fadeOut();
+        }
+    });
+
+    $("#top_btn").click(function () {
+        $("html, body").animate({ scrollTop: 0 }, 800);
+        return false;
+    });
 });
