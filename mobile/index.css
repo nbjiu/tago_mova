@@ -30,9 +30,9 @@ header > img {width: 130px;height: auto;}
 
 .page03 .img {width: 60%;max-width: 640px; height: auto;margin: 0 auto;margin-top: 30px;}
 .page03 .box:not(:first-child) {margin-top: 20px;}
-.page03 .box01 .box_cont  {display: grid;grid-template-columns: 1fr 1fr; margin-top: 10px;height: 140px;overflow: hidden;}
-.page03 .box01 .box_cont .item:first-child img {clip-path: polygon(0 0, 100% 0, 89% 100%, 0 100%);}
-.page03 .box01 .box_cont .item:last-child img {clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%);}
+.page03 .box01 .box_cont  {display: grid;grid-template-columns: 1fr 1fr; margin-top: 10px;height: 140px;overflow: hidden;position: relative;}
+.page03 .box01 .box_cont .item:first-child  {    clip-path: polygon(0 0, 100% 0, 82% 100%, 0 100%);position: absolute;left: 0;height: 100%;width: 54%;}
+.page03 .box01 .box_cont .item:last-child  {    clip-path: polygon(18% 0, 100% 0, 100% 100%, 0 100%); position: absolute;right: 0;height: 100%;width: 54%;}
 .page03 .box01 .box_cont .item img {object-fit: cover;height: 100%;}
 .page03 .box02 .swiper_box_slide {height: 150px;margin-top: 10px;}
 .page03 .box02 .swiper_box_slide .swiper-slide {border-radius: 8px;overflow: hidden;}
