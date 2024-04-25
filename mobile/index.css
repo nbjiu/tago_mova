@@ -409,6 +409,7 @@ header .h_logo_gp {
 .page05 .box02_inn .item .lvl_nm {
   padding-left: 40px;
   position: relative;
+  
 }
 .page05 .box02_inn .item .lvl_nm::before {
   content: "";
@@ -515,12 +516,12 @@ span {
   font-weight: 800;
   text-align: right;
 } */
- .page06 .box03 .box03_inn .amount h4 {
+.page06 .box03 .box03_inn .amount h4 {
   font-size: 16px;
   color: #333;
   font-weight: 800;
   text-align: right;
-} 
+}
 .page06 .box03 .box03_inn .amount h3 {
   font-size: 25px;
   color: #333;
@@ -533,22 +534,21 @@ span {
 .page06 .box03 .box03_inn .amount .rth {
   width: 40%;
 }
-.page06 .video_converter_btn_text{
-    color: #362a26;
-    font-size: 14px;
-    font-weight: 500;
-    text-align:center;
-    margin-bottom: -10px;
-    margin-top:35px;
+.page06 .video_converter_btn_text {
+  color: #362a26;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: -10px;
+  margin-top: 35px;
 }
-.page07 .common .box01 .box_head{
-  display:block;
- 
+.page07 .common .box01 .box_head {
+  display: block;
 }
-.page07 .common .box01 .box_head .box01_heading{
+.page07 .common .box01 .box_head .box01_heading {
   display: flex;
   justify-content: center;
-  color:#333;
+  color: #333;
   font-weight: 700;
   font-size: 22px;
   text-align: center;
@@ -559,73 +559,159 @@ span {
   font-size: 50px;
 
   gap: 5px;
-text-align: center;
+  text-align: center;
 }
-.page07 .box01 .box_head .box01_dec2{
+.page07 .box01 .box_head .box01_dec2 {
   font-size: 30px;
 }
 .page07 .box02 .box02_heading {
   text-align: center;
-  color:#000;
-  margin-top:20px;
-  font-weight:500;
+  color: #000;
+  margin-top: 20px;
+  font-weight: 500;
   padding-bottom: 10px;
 }
-  .page07 .box02_inn {
-    
-    display: flex;
-    flex-direction: column;
-    gap: 15px;}
+.page07 .box02_inn {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
-    .page07 .box02_inn .item {
-      display: flex;
-      justify-content: space-between;
-      background-color: #afafb0;
-      color: #fff;
-      padding: 12px 15px;
-      border-radius: 8px;
-    }
-    .page07 .box02_inn .item .lvl_nm {
-      padding-left: 111px;
-      position: relative;
-     
-    }
-    .page07 .box02_inn .item .lvl_nm h5{
-      font-size: 25px;
-      font-weight: 700;
-    }
-    .page07 .box02_inn .item.on {
-      box-shadow: inset 0px 0px 10px 3px #0000003b;
-      background: linear-gradient(to right, #c91580, #671473);
-    }
-    .page07 .box02_inn .item.on .item2{
-      background-color:#dadbdb;
-     
-      /* box-shadow: inset 0px 0px 10px 3px #0000003b;
+.page07 .box02_inn .item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #afafb0;
+  color: #fff;
+  padding: 12px 15px;
+  border-radius: 8px;
+}
+.page07 .box02_inn .item .lvl{
+  width:100%;
+  position: relative;
+ 
+}
+.page07 .box02_inn .item .lvl_nm {
+  padding-left:40%;
+  width:100%;
+  position: relative;
+  display:flex;
+  justify-content: space-between; 
+  
+}
+.page07 .box02_inn .item .lvl_nm>h5 {
+  font-size: 25px;
+  font-weight: 700;
+ 
+}
+.page07 .box02_inn .item.on {
+  box-shadow: inset 0px 0px 10px 3px #0000003b;
+  background: linear-gradient(to right, #c91580, #671473);
+}
+.page07 .box02_inn .item.on .item2 {
+  background-color: #dadbdb;
+
+  /* box-shadow: inset 0px 0px 10px 3px #0000003b;
       background: linear-gradient(to right, #c91580, #671473); */
-    }
-    
-.item2 .lvl .lvl_nm>h5{
-  color :white;}
-    .page07 .box02_inn .item.on .lvl_nm::before {
-      background: url(imgs/radio_checked_white.png) no-repeat;
-      background-size: cover;
-    }
-    .page07 .box02_inn .item .lvl_nm::before {
-      content: "";
-      position: absolute;
-      background: url(imgs/radio_notchecked_white.png) no-repeat;
-      margin-right:50%;
-      background-size: cover;
-      width: 20px;
-      height: 20px;
-      left: 20px;
-      top: 50%;
-      transform: translate(-50%, -50%);
-    }
-    .page07 .video_converter_btn{
+}
+.page07 .box03{
+  margin-bottom:30px;
+}
+.page07 .box03 .box_head {
+  margin-top: 30px;
+}
+.page07 .box03 .radio_group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top:20px;
+}
+.page07 .box03 .radio_group .radio_one {
+  width: 48%;
+  padding: 5px 0px;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.page07 .box03 .radio_group .radio_two {
+  width: 48%;
+  padding: 5px 0px;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.page07 .box03 .radio_group .radio_one::before {
+  background: url(./imgs/radio_check_blk.png) no-repeat;
+  background-size: cover;
+}
+.page07 .box03 .radio_group .radio_two::before {
+  background: url(./imgs/radio_check_blk.png) no-repeat;
+  background-size: cover;
+}
+.page07 .box03 .radio_group .radio_one::before {
+  content: "";
+  position: absolute;
+  background: url(./imgs/radio_check_blk.png) no-repeat;
+  margin-right: 50%;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  left: 20px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.page07 .box03 .radio_group .radio_two::before {
+  content: "";
+  position: absolute;
+  background: url(./imgs/radio_circle_black.png) no-repeat;
+  margin-right: 50%;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  left: 20px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
-    }
+.page07 .box03 .radio_group .radio_one > span {
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+  padding-left: 20px;
+}
+.page07 .box03 .radio_group .radio_two > span {
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+  padding-left: 20px;
+}
+.item2 .lvl .lvl_nm > h5 {
+  color: white;
+}
+.page07 .box02_inn .item.on .lvl_nm::before {
+  background: url(imgs/radio_checked_white.png) no-repeat;
+  background-size: cover;
+}
+.page07 .box02_inn .item .lvl_nm::before {
+  content: "";
+  position: absolute;
+  background: url(imgs/radio_notchecked_white.png) no-repeat;
+  margin-right: 50%;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  left: 20px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.page07 .video_converter_btn {
+}
 /* common css */
 .checkbox_type_box {
   display: flex;
