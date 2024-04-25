@@ -1,0 +1,33 @@
+@charset "utf-8";
+@import url(fonts.css);
+
+/*-------------------------------------------------------------------
+    파일정의: Main page style
+    순서:    Contents > Main top(banner) > Aside
+-------------------------------------------------------------------*/
+
+/* contents start */
+/* main top start (banner) */
+.banner {height: 900px;padding-top: 80px;}
+.banner .banner_inn {display: flex;align-items: center;justify-content: flex-end;}
+.banner .banner_inn .img {width: 880px;}
+
+.main_01 {display: flex;justify-content: space-between;align-items: flex-end;position: relative;}
+.main_01 .img {height: 965px;margin-left: 90px;}
+.main_01 .img > div .img_inn {width: 390px;clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);} 
+.main_01 .img > div .img02 {position: relative;top: -420px;left: 308px;}
+.main_01 .txt {width: 800px;background: rgb(135 13 111 / 70%);padding: 105px 68px 118px 68px;margin-top: -50px;margin-bottom: -395px;z-index: 1;}
+.main_01 .txt h4 {font-family: 'NanumSquareNeo';font-size: 24px;font-weight: 700;color: var(--color-light);} 
+.main_01 .txt h5 {margin: 35px 0 84px;font-family: 'NanumSquareNeo';font-size: 54px;font-weight: 900;color: #db1583;position: relative;display: inline-block;} 
+.main_01 .txt h5::after {content: "";background: var(--bg-light);height: 2px;width: 100%;position: absolute;bottom: -12px;left: 0;}
+.main_01 .txt article {font-size: 18px;font-weight: 200;color: #e5e5e5;text-align: justify;line-height: 33px;margin-bottom: 47px;}
+.main_01 .txt article h6 {font-size: 20px;font-weight: 700;color: #fefefe;}
+.main_01 .txt .article_01 h6 {display: inline;}
+.main_01 .txt > p {font-size: 30px;font-weight: 700;color: #fefefe;text-align: center;line-height: 44px;padding-top: 11px;}
+.main_02 {height: 395px;width: 100%;}
+
+
+
+
+/* aside.floating start */
+/* aside.floating end */

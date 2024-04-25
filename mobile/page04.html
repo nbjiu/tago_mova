@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>MOVA</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <header class="container">
+        <a href="" class="h_logo"><img src="imgs/ico_home.png" alt="mova"></a>
+        <img src="imgs/logo_white.png" alt="mova">
+        <a href="" class="h_hamburger"><img src="imgs/ico_hamburger.png" alt="mova"></a>
+    </header>
+
+
+    <div class="content page04">
+        <article class="common">
+            <h2>비디오 업로드 시 주의사항</h2>
+            <h3>다음과 같은 사항을 고려해주세요!</h3>
+            <ul>
+                <li>비디오 가격은 10초당 책정되며, 영상 길이는 최대 1분입니다.</li>
+                <li>필터를 계속해서 개발중이며 사용가능한 필터는 1종류 입니다.</li>
+                <li>테스트 기간 동안은 영상변환 횟수 제한이 있을 수 있습니다.</li>
+            </ul>
+            <div id="img_upload" class="img_upload">
+                <div class="inner">
+                    <img src="imgs/ico_plus.png" alt="mova">
+                    <button>비디오 업로드</button>
+                </div>
+            </div>
+            <div class="alert_txt">
+                <p class="on">얼굴의 크기가 너무 작습니다.</p>
+                <p>영상의 화질이 너무 낮습니다.</p>
+            </div>
+            <div class="filter_select">
+                <div class="box_head">
+                    <h3>
+                        <img src="imgs/logo.png" alt="mova">
+                        필터 선택
+                        <span>(현재 뷰티 필터만 가능)</span>
+                    </h3>
+                    <button class="more_button"><img src="imgs/more.png" alt="mova"></button>
+                </div>
+                <div class="swiper swiper_grid_slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="imgs/page02.png" alt="mova">
+                            <img src="imgs/page02.png" alt="mova">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="imgs/page02.png" alt="mova">
+                            <img src="imgs/page02.png" alt="mova">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="imgs/page02.png" alt="mova">
+                            <img src="imgs/page02.png" alt="mova">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="imgs/page02.png" alt="mova">
+                            <img src="imgs/page02.png" alt="mova">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="imgs/page02.png" alt="mova">
+                            <img src="imgs/page02.png" alt="mova">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="imgs/page02.png" alt="mova">
+                            <img src="imgs/page02.png" alt="mova">
+                        </div>
+                    </div>
+                    <div class="swiper-button swiper-button-prev"></div>
+                    <div class="swiper-button swiper-button-next"></div>
+                </div>
+            </div>
+            <div class="badge">
+                <span class="on">Beauty Filter</span>
+                <span>Disney Filter</span>
+                <span>Ghibli Filter</span>
+                <span>TBA</span>
+            </div>
+            <button class="next_btn">NEXT</button>
+        </article>
+    </div>
+    <footer class="white_footer">
+        <div class="f_link">
+            <a href=""><span>MOVA</span> 기본약관</a>
+            <a href="">서비스 이용약관</a>
+            <a href="">개인정보 처리방침</a>
+            <a href="">특정상거래</a>
+        </div>
+        <div class="foot_inn">
+            <div class="f_logo">
+                <img src="imgs/page03_f_logo.png" alt="mova">
+            </div>
+            <div class="f_info">
+                <div>
+                    <p>사업자등록번호 : 356-09-02748</p> <span>line</span>
+                    <p>대표자명 : 주호택</p> <span>line</span>
+                    <p>상호명 : 메타홍보</p>
+                </div>
+                <div>
+                    <p>사  업  장  주  소 :</p> 광주 북구 첨단과기로 123, 기업지원센터 S8, 314호
+                </div>
+                <span>altru0414@gmail.com</span>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+
+            var mySwiper = new Swiper(".swiper_grid_slide", {
+                slidesPerView: 4,
+                spaceBetween: 5,
+                loop: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        });
+    </script>
+</html>
