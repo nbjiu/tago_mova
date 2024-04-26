@@ -39,7 +39,15 @@
               </div>
           </div>
           <div class="pg07_2_btn_gp">
-            <button class="pg07_btn_2"><p>정렬방법</p> <p class="drop_down_btn"><img src="imgs/drop_down.png" alt=""></p></button>
+            <div class="dropdown">
+                <button class="pg07_btn_2" onclick="toggleDropdown()">정렬방법 <span class="drop_down_btn"><img src="imgs/drop_down.png" alt=""></span></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Option 1</a>
+                    <a href="#">Option 2</a>
+                    <a href="#">Option 3</a>
+                </div>
+            </div>
+            
            <div class="pg07_2_input_gp">
             <input type="text" placeholder="검색">
             <img src="imgs/search_icon.png" alt="">
@@ -113,5 +121,22 @@
           </div>
       </footer>
     </div>
+    <script>
+        function toggleDropdown() {
+  var dropdownContent = document.getElementById("myDropdown");
+  if (dropdownContent.style.display === "block") {
+    dropdownContent.style.display = "none";
+  } else {
+    dropdownContent.style.display = "block";
+  }
+}
+
+document.addEventListener("click", function(event) {
+  var dropdown = document.getElementsByClassName("dropdown")[0];
+  if (!dropdown.contains(event.target)) {
+    document.getElementById("myDropdown").style.display = "none";
+  }
+});
+    </script>
 </body>
 </html>
