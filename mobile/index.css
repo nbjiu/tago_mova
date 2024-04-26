@@ -142,7 +142,6 @@ footer .f_info {font-size: 0.6rem;white-space: nowrap;line-height: 13px;color: #
 footer .f_info > div{display: flex;}
 footer .f_info > div span{font-weight: 500; text-indent: -99999999px;width: 1px;height: 8px;background-color: #7f8081;margin: 0 3px;margin-top: 2.5px;}
 
-
 .container {
   width: 90%;
   margin: 0 auto;
@@ -957,7 +956,6 @@ footer .f_info > div span {
   margin: 0 3px;
   margin-top: 2.5px;
 }
-
 /* page07-2  */
 .bg-color{
   background-color: #2f0e43 ;
@@ -1041,4 +1039,55 @@ footer .f_info > div span {
 }
 .padding_footer {
   padding: 0 15px;
+}
+/* page8 */
+.box8_head img{
+  width: 80%;
+  margin-top: 10px;
+}
+.box8_head {
+  display: flex;
+  justify-content: center;
+}
+.page8_p{
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 500;
+  color: black;
+  font-size: 18px;
+}
+.page8_p span{
+  color: #da1582;
+  font-weight: 800;
+
+}
+.page8_h2{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page8_h2 h2{
+   color: black;
+   font-weight: 300;
+   font-size: 12px;
+}
+.page8_h2  span{
+  font-weight: 600;
+}
+.page8_card_gp{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.pg8_card img{
+  width: 120px;
+}
+.pg8_card{
+  width: 40%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
 }
