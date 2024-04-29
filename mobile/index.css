@@ -989,7 +989,7 @@ footer .f_info > div span {
  color: #362a26;
 }
 .dropdown-content a{
-  font-size: 14px;
+  font-size: 12px;
 }
 .drop_down_btn img{
   width: 10px;
@@ -1020,7 +1020,10 @@ footer .f_info > div span {
   display: block;
 }
 
-
+.pg07_2_btn{
+  height: 14px;
+  width: 100px;
+}
 .pg07_2_btn_gp{
   display: flex;
   justify-content: end;
@@ -1274,11 +1277,11 @@ footer .f_info > div span {
    border-radius: 20px;
 }
 
-.pg07_2_card{
+.pg07_2_card {
   height: 320px;
   width: 380px;
 }
-.page07_2_cards{
+.page07_2_cards {
   margin-top:50px;
   gap: 40px;
 }

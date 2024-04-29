@@ -122,21 +122,21 @@
           </footer>
     </div>
     <script>
-        function toggleDropdown() {
-  var dropdownContent = document.getElementById("myDropdown");
-  if (dropdownContent.style.display === "block") {
-    dropdownContent.style.display = "none";
-  } else {
-    dropdownContent.style.display = "block";
-  }
-}
+        const toggleDropdown=()=> {
+            var dropdownContent = document.getElementById("myDropdown");
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+            } else {
+                dropdownContent.style.display = "block";
+            }
+            }
 
-document.addEventListener("click", function(event) {
-  var dropdown = document.getElementsByClassName("dropdown")[0];
-  if (!dropdown.contains(event.target)) {
-    document.getElementById("myDropdown").style.display = "none";
-  }
-});
+            document.addEventListener("click", function(event) {
+            var dropdown = document.getElementsByClassName("dropdown")[0];
+            if (!dropdown.contains(event.target)) {
+                document.getElementById("myDropdown").style.display = "none";
+            }
+            });
     </script>
 </body>
 </html>
