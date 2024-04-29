@@ -964,7 +964,7 @@ footer .f_info > div span {
   font-size: 12px;
   font-weight: 400;
   color: #362a26;
-  margin-left: 12px;
+  margin-left: 2px;
 
 }
 .box_head1{
@@ -977,22 +977,23 @@ footer .f_info > div span {
 }
 .pg07_btn_2{
   border: 1px solid #d4d4d4;
-  padding: 5px 10px;
+  width: 70px;
+  padding: 2px 5px;
   margin-top: 2px;
- display: flex;
- justify-content: center;
- align-items: center;
- gap: 0 10px;
- font-size: 12px;
- font-weight: 500;
- border-radius: 20px;
- color: #362a26;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 2px;
+  font-size: 10px;
+  font-weight: 500;
+  border-radius: 20px;
+  color: #362a26;
 }
 .dropdown-content a{
   font-size: 12px;
 }
 .drop_down_btn img{
-  width: 10px;
+  width: 6px;
   margin-top: 4px;
 }
 
@@ -1021,7 +1022,7 @@ footer .f_info > div span {
 }
 
 .pg07_2_btn{
-  height: 14px;
+  height: 10px;
   width: 100px;
 }
 .pg07_2_btn_gp{
@@ -1030,10 +1031,12 @@ footer .f_info > div span {
   gap: 0 10px;
   margin-top: 10px;
   align-items: center;
-  height: 20px;
+  /* height: 20px; */
 }
 .pg07_2_input_gp{
   position: relative;
+  display: flex;
+  align-items: center;
 }
 .pg07_2_input_gp img{
   position: absolute;
@@ -1042,18 +1045,19 @@ footer .f_info > div span {
   top: 50%;
   transform: translateY(-50%);
   right: 10%;
-  width: 12px;
+  width: 10px;
   cursor: pointer;
 }
 .pg07_2_input_gp input::placeholder { 
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 500;
   color: black;
 }
 .pg07_2_btn_gp input{
-   width: 90px;
+   width: 70px;
    border: 1px solid #d4d4d4;
-   padding: 1px 8px;
+   padding: 0px 8px;
+   height: 18px;
    border-radius: 20px;
 }
 .pg07_2_card{
