@@ -109,7 +109,7 @@ article.common {background: #fff;margin: 0 5px;padding: 20px;margin-bottom: -1px
 .box_head h3 img {width: 30px;position: relative;top: 2px;}
 .box_head h3 span {color: #362a26;font-size: 14px;font-weight: 400;position: relative;top: 3px;}
 
-.range_slider {background: linear-gradient(to right, #d56bab, #9f6ba7);padding: 2px;border-radius: 50px;}
+.range_slider {background: linear-gradient (to right, #d56bab, #9f6ba7);padding: 2px;border-radius: 50px;}
 input[type=range]::-webkit-slider-thumb {height: 17px;width: 17px;border-radius: 15px;background: #FFFFFF;cursor: pointer;-webkit-appearance: none;box-shadow: 1px 1px 1px #000031;}
 
 .white_footer {background: #fff;margin: 0 5px; border-bottom: 5px solid #443056;}
@@ -977,13 +977,14 @@ footer .f_info > div span {
 }
 .pg07_btn_2{
   border: 1px solid #d4d4d4;
-  padding: 2px 10px;
+  padding: 5px 10px;
+  margin-top: 2px;
  display: flex;
  justify-content: center;
  align-items: center;
  gap: 0 10px;
  font-size: 12px;
- font-weight: 400;
+ font-weight: 500;
  border-radius: 20px;
  color: #362a26;
 }
@@ -1026,6 +1027,7 @@ footer .f_info > div span {
   gap: 0 10px;
   margin-top: 10px;
   align-items: center;
+  
 }
 .pg07_2_input_gp{
   position: relative;
@@ -1040,10 +1042,15 @@ footer .f_info > div span {
   width: 12px;
   cursor: pointer;
 }
+.pg07_2_input_gp input::placeholder { 
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+}
 .pg07_2_btn_gp input{
    width: 90px;
    border: 1px solid #d4d4d4;
-   padding: 2px 8px;
+   padding: 1px 8px;
    border-radius: 20px;
 }
 .pg07_2_card{
@@ -1098,7 +1105,7 @@ footer .f_info > div span {
 }
 .page8_h2 h2{
    color: black;
-   font-weight: 300;
+   font-weight: 400;
    font-size: 12px;
 }
 .page8_h2  span{
@@ -1217,7 +1224,7 @@ footer .f_info > div span {
 
 @media (min-width: 1025px) {
   .box8_head img{
-    width: 40%;
+    width: 30%;
     
   }
   .page8_p{
