@@ -1021,8 +1021,7 @@ footer .f_info > div span {
   display: block;
 }
 
-.pg07_2_btn{
-
+.pg07_2_btn {
   width: 100px;
 }
 .pg07_2_btn_gp{
@@ -1244,6 +1243,10 @@ footer .f_info > div span {
  .pg8_card img{
   width: 220px;
 }
+.page8_card_gp{
+  gap: 0px;
+  justify-content: center;
+}
 .pg8_img_card{
   width: 350px;
   height: 450px;
@@ -1260,7 +1263,7 @@ footer .f_info > div span {
 .pg07_btn_2{
   padding: 5px 20px;
  font-size: 18px;
- 
+ width: 150px;
 }
 .drop_down_btn img{
   width: 15px;
@@ -1271,7 +1274,7 @@ footer .f_info > div span {
  
 }
 .pg07_2_input_gp img{
-  width: 22px;
+  width: 20px;
   right: 5%;
 }
 .pg07_2_btn_gp input{
@@ -1293,5 +1296,11 @@ footer .f_info > div span {
   width: 26px;
   margin: 10px;
   height: 26px;
+}
+.pg07_2_btn_gp input{
+  padding: 15px 10px;
+}
+.pg07_2_input_gp input::placeholder { 
+  font-size: 16px;
 }
 }
