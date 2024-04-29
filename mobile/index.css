@@ -1206,7 +1206,6 @@ footer .f_info > div span {
 .page8_card_gp{
   gap: 50px;
 }
-
 .pg8_img_card2{
   margin-top: 20px;
   width: 350px;
@@ -1215,7 +1214,6 @@ footer .f_info > div span {
 .pg07_2_card{
   height: 200px;
   width: 225px;
-
 }
 .page07_2_cards{
   margin-top: 50px;
@@ -1226,15 +1224,11 @@ footer .f_info > div span {
   height: 20px;
 }
 }
-
-
 @media (min-width: 1025px) {
   .box8_head img{
     width: 30%;
-    
   }
   .page8_p{
-
     font-size: 24px;
   }
   .page8_h2 h2{
@@ -1243,10 +1237,7 @@ footer .f_info > div span {
  .pg8_card img{
   width: 220px;
 }
-.page8_card_gp{
-  gap: 0px;
-  justify-content: center;
-}
+
 .pg8_img_card{
   width: 350px;
   height: 450px;
