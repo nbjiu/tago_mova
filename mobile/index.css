@@ -1273,12 +1273,14 @@ footer .f_info > div span {
    padding: 5px 20px;
    border-radius: 20px;
 }
+
 .pg07_2_card{
-  height: 220px;
-  width: 245px;
+  height: 320px;
+  width: 380px;
 }
 .page07_2_cards{
-  margin-top: 10px;
+  margin-top:50px;
+  gap: 40px;
 }
 .pg07_plus img{
   width: 26px;
