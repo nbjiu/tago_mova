@@ -1022,7 +1022,7 @@ footer .f_info > div span {
 }
 
 .pg07_2_btn{
-  height: 10px;
+
   width: 100px;
 }
 .pg07_2_btn_gp{
@@ -1056,8 +1056,8 @@ footer .f_info > div span {
 .pg07_2_btn_gp input{
    width: 70px;
    border: 1px solid #d4d4d4;
-   padding: 0px 8px;
-   height: 18px;
+   padding: 0 8px;
+   height: 16px;
    border-radius: 20px;
 }
 .pg07_2_card{
