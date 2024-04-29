@@ -112,7 +112,7 @@ article.common {background: #fff;margin: 0 5px;padding: 20px;margin-bottom: -1px
 .range_slider {background: linear-gradient(to right, #d56bab, #9f6ba7);padding: 2px;border-radius: 50px;}
 input[type=range]::-webkit-slider-thumb {height: 17px;width: 17px;border-radius: 15px;background: #FFFFFF;cursor: pointer;-webkit-appearance: none;box-shadow: 1px 1px 1px #000031;}
 
-.white_footer {background: #fff;margin: 0 5px;}
+.white_footer {background: #fff;margin: 0 5px; border-bottom: 5px solid #443056;}
 .white_footer .foot_inn {padding: 13px 0 50px;}
 footer .f_link {display: flex;justify-content: center;gap: 8px;width: 95%;margin: 0 auto;padding-top: 15px;}
 footer .f_link a {font-size: 11px;color: #7f8081;font-weight: 500;}
@@ -1015,6 +1015,7 @@ footer .f_info > div span {
 .show {
   display: block;
 }
+
 
 .pg07_2_btn_gp{
   display: flex;
