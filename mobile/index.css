@@ -1125,6 +1125,24 @@ footer .f_info > div span {
   gap: 35px;
 
 }
+ .after_btn_09{
+  background: #631473;
+  background: -webkit-linear-gradient(267deg, #631473 0%, #ce1580 100%);
+  background: linear-gradient(267deg, #631473 0%, #ce1580 100%);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0px 30px;
+  border-radius: 20px;
+ }
+ .before_btn_09{
+  background: #979490;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0px 30px;
+  border-radius: 20px;
+ }
 .pg8_card img{
   width: 120px;
 }
@@ -1196,6 +1214,17 @@ footer .f_info > div span {
  .pg8_card img{
   width: 160px;
 }
+.after_btn_09{
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0px 34px;
+
+ }
+ .before_btn_09{
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0px 34px;
+ }
 .pg8_img_card{
   width: 350px;
   height: 450px;
@@ -1248,6 +1277,17 @@ footer .f_info > div span {
   width: 350px;
   height: 220px;
 }
+.after_btn_09{
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0px 34px;
+
+ }
+ .before_btn_09{
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0px 34px;
+ }
 .radius_card_right img{
   width: 40px;
   margin: 10px;
