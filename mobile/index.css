@@ -1062,9 +1062,9 @@ footer .f_info > div span {
   flex-wrap: wrap;
 }
 .pg07_plus img{
-  width: 25px;
+  width: 15px;
   margin: 10px;
-  height: 25px;
+  height: 15px;
 }
 .padding_footer {
   padding: 0 15px;
@@ -1124,6 +1124,7 @@ footer .f_info > div span {
 .pg07_plus img{
   cursor: pointer;
   transition: all ease-in-out 0.2s;
+  
 }
 .pg07_plus img:hover{
   scale: 1.05;
@@ -1206,6 +1207,11 @@ footer .f_info > div span {
 .page07_2_cards{
   margin-top: 50px;
 }
+.pg07_plus img{
+  width: 20px;
+  margin: 10px;
+  height: 20px;
+}
 }
 
 
@@ -1266,5 +1272,10 @@ footer .f_info > div span {
 }
 .page07_2_cards{
   margin-top: 10px;
+}
+.pg07_plus img{
+  width: 26px;
+  margin: 10px;
+  height: 26px;
 }
 }
