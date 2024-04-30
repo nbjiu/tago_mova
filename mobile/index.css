@@ -2150,8 +2150,10 @@ footer .f_info > div span {
   }
   .pg07_2_btn_gp input {
     padding: 15px 10px;
+   font-size: 14px;
+
   }
   .pg07_2_input_gp input::placeholder {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
