@@ -345,7 +345,7 @@ header .h_logo_gp {
 .page05 .box01_inn {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 120px;
+  height: 200px;
   gap: 5px;
   border-radius: 8px;
   overflow: hidden;
