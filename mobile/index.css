@@ -1542,13 +1542,13 @@ font-weight:300px;
   background-color: #c4c4c4;
   width: 3px;
   height: 9px;
-  rotate:-180deg;
+  rotate:90deg;
 }
 .page08 #faq ul li i:before {
-  transform: translate(-2px, 0) rotate(45deg);
+  transform: translate(-2px, 0) rotate(480deg);
 }
 .page08 #faq ul li i:after {
-  transform: translate(2px, 0) rotate(-45deg);
+  transform: translate(2px, 0) rotate(-480deg);
 }
 .page08 #faq ul li input[type=checkbox] {
   position: absolute;
@@ -1570,10 +1570,10 @@ font-weight:300px;
   /*transform: translate(0, 50%);*/
 }
 .page08 #faq ul li input[type=checkbox]:checked ~ i:before {
-  transform: translate(2px, 0) rotate(90deg);
+  transform: translate(2px, 0) rotate(120deg);
 }
 .page08 #faq ul li input[type=checkbox]:checked ~ i:after {
-  transform: translate(-2px, 0) rotate(-90deg);
+  transform: translate(-2px, 0) rotate(-120deg);
 }
 
 
