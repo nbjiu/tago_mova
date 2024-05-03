@@ -1250,22 +1250,32 @@ span {
 .page07 .box02_inn .item .lvl_nm h5 {
   font-size: 25px;
   font-weight: 700;
-  color: #fff;
+  color:#afafb0;
 }
 
 .page07 .box02_inn .item2 .lvl_nm h5 {
-  color: #afafb0;
+
+}  
+.page07 .box02_inn .item{
+  
+
 }
+
 .page07 .box02_inn .item.on {
   box-shadow: inset 0px 0px 10px 3px #0000003b;
   background: linear-gradient(to right, #c91580, #671473);
+  color:#fff;
 }
-.page07 .item .item2 {
+.page07 .box02_inn .item.on h5 {
+  
+  color:#fff;
+}
+/* .page07 .item .item2 {
   background-color: #dadbdb;
 
   /* box-shadow: inset 0px 0px 10px 3px #0000003b;
-      background: linear-gradient(to right, #c91580, #671473); */
-}
+      background: linear-gradient(to right, #c91580, #671473);} */
+
 
 .page07 .box03 {
   margin-bottom: 30px;
@@ -1359,7 +1369,6 @@ span {
   height: 20px;
   left: 20px;
   top: 50%;
-
   transform: translate(-50%, -50%);
 }
 
