@@ -1199,14 +1199,13 @@ span {
   margin-bottom: -10px;
   margin-top: 35px;
 }
-.page07 .common .box01 .box_head{
-  display:block;
- 
+.page07 .common .box01 .box_head {
+  display: block;
 }
-.page07 .common .box01 .box_head .box01_heading{
+.page07 .common .box01 .box_head .box01_heading {
   display: flex;
   justify-content: center;
-  color:#333;
+  color: #333;
   font-weight: 700;
   font-size: 22px;
   text-align: center;
@@ -1217,51 +1216,57 @@ span {
   font-size: 50px;
 
   gap: 5px;
-text-align: center;
+  text-align: center;
 }
-.page07 .box01 .box_head .box01_dec2{
+.page07 .box01 .box_head .box01_dec2 {
   font-size: 30px;
 }
 .page07 .box02 .box02_heading {
   text-align: center;
-  color:#000;
-  margin-top:20px;
-  font-weight:500;
+  color: #000;
+  margin-top: 20px;
+  font-weight: 500;
   padding-bottom: 10px;
 }
-  .page07 .box02_inn {
-    
-    display: flex;
-    flex-direction: column;
-    gap: 15px;}
+.page07 .box02_inn {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
-    .page07 .box02_inn .item {
-      display: flex;
-      justify-content: space-between;
-      background-color: #afafb0;
-      color: #fff;
-      padding: 12px 15px;
-      border-radius: 8px;
-    }
-    .page07 .box02_inn .item .lvl_nm {
-      padding-left: 111px;
-      position: relative;
-     
-    }
-    .page07 .box02_inn .item .lvl_nm h5{
-      font-size: 25px;
-      font-weight: 700;
-    }
-    .page07 .box02_inn .item.on {
-      box-shadow: inset 0px 0px 10px 3px #0000003b;
-      background: linear-gradient(to right, #c91580, #671473);
-    }
-    .page07 .box02_inn .item.on .item2{
-      background-color:#dadbdb;
-     
-      /* box-shadow: inset 0px 0px 10px 3px #0000003b;
+.page07 .box02_inn .item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #dadbdb;
+  color: #fff;
+
+  padding: 12px 15px;
+  border-radius: 8px;
+}
+.page07 .box02_inn .item .lvl_nm {
+  padding-left: 111px;
+  position: relative;
+}
+.page07 .box02_inn .item .lvl_nm h5 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.page07 .box02_inn .item2 .lvl_nm h5 {
+  color: #afafb0;
+}
+.page07 .box02_inn .item.on {
+  box-shadow: inset 0px 0px 10px 3px #0000003b;
+  background: linear-gradient(to right, #c91580, #671473);
+}
+.page07 .item .item2 {
+  background-color: #dadbdb;
+
+  /* box-shadow: inset 0px 0px 10px 3px #0000003b;
       background: linear-gradient(to right, #c91580, #671473); */
 }
+
 .page07 .box03 {
   margin-bottom: 30px;
 }
@@ -1360,6 +1365,8 @@ text-align: center;
 
 .page07 .video_converter_btn {
 }
+
+
 .page08 .user_group {
   width: 75%;
   margin: auto;
@@ -1394,8 +1401,8 @@ text-align: center;
 .page08 .user_group .user_name_group .user_name> span {
   font-size:30px;
   font-weight: 700;
- 
- 
+
+
 }
 .page08 .user_group .user_name {
 }
@@ -1535,13 +1542,13 @@ font-weight:300px;
   background-color: #c4c4c4;
   width: 3px;
   height: 9px;
-  rotate:-180deg;
+  rotate:90deg;
 }
 .page08 #faq ul li i:before {
-  transform: translate(-2px, 0) rotate(45deg);
+  transform: translate(-2px, 0) rotate(480deg);
 }
 .page08 #faq ul li i:after {
-  transform: translate(2px, 0) rotate(-45deg);
+  transform: translate(2px, 0) rotate(-480deg);
 }
 .page08 #faq ul li input[type=checkbox] {
   position: absolute;
@@ -1563,10 +1570,10 @@ font-weight:300px;
   /*transform: translate(0, 50%);*/
 }
 .page08 #faq ul li input[type=checkbox]:checked ~ i:before {
-  transform: translate(2px, 0) rotate(90deg);
+  transform: translate(2px, 0) rotate(120deg);
 }
 .page08 #faq ul li input[type=checkbox]:checked ~ i:after {
-  transform: translate(-2px, 0) rotate(-90deg);
+  transform: translate(-2px, 0) rotate(-120deg);
 }
 
 
@@ -1595,7 +1602,6 @@ a:link {
   width: 100%;
 
 }
-
 /* common css */
 .checkbox_type_box {
   display: flex;
