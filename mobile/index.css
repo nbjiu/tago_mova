@@ -1449,17 +1449,24 @@ span {
 /* accordion start */
 .accordion {
   width: 100%;
+  margin-bottom:80px;
 }
 
 .accordion-item {
   margin-bottom: 10px;
+
 }
 
 .accordion-question {
   cursor: pointer;
-  padding: 10px;
-  background-color: #f0f0f0;
-  border-radius: 5px;
+  padding: 10px 15PX;
+letter-spacing: 1px;
+  font-size:20px;
+  font-weight: 600;
+  color:#000;
+  border:1px solid #c3c4c4;
+  border-radius: 10px;
+
 }
 
 .accordion-answer {
@@ -1472,7 +1479,7 @@ span {
 .arrow-icon {
   float: right;
   width: 10px; /* Adjust as needed */
-  height: 10px; /* Adjust as needed */
+  height: 12px; /* Adjust as needed */
 }
 
 .open {
