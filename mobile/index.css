@@ -20,10 +20,10 @@ header {
   justify-content: space-between;
   height: 80px;
 }
-header .h_logo img {
+/* header .h_logo img {
   width: 23px;
   height: 23px;
-}
+} */
 header .h_hamburger img {
   width: 23px;
   height: 17px;
